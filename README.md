@@ -48,7 +48,7 @@ sudo tunnel make 22
 
 After the command completes, the tool will print the connection details (host IP, port, username). Example output:
 
-Host: <your-vps-ip>
+Host: ssh.hironull.lol
 Port: <assigned-port>
 Username: root
 Password: <your-vps-password>
@@ -56,7 +56,7 @@ Password: <your-vps-password>
 To connect from your machine:
 
 ```bash
-ssh root@your-vps-ip -p <assigned-port>
+ssh root@ssh.hironull.lol -p <assigned-port>
 ```
 
 (or configure Termius / PuTTY with the same Host/IP and Port)
