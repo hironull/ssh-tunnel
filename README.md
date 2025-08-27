@@ -19,16 +19,10 @@ A small, lightweight tool to install and configure a working SSH server on a VPS
 
 ## Installation
 
-Run these commands on your VPS (Debian/Ubuntu-compatible example):
+Run this 1 line command on your VPS (Debian/Ubuntu-compatible example):
 
 ```bash
-sudo apt update
-sudo apt install -y git
-git clone https://github.com/hironull/ssh-tunnel.git
-chmod +x ssh-tunnel/tunnel
-sudo mv ssh-tunnel/tunnel /usr/local/bin/tunnel
-rm -rf ssh-tunnel
-clear
+sudo apt update && sudo apt install -y git && git clone https://github.com/hironull/ssh-tunnel.git && chmod +x ssh-tunnel/tunnel && sudo mv ssh-tunnel/tunnel /usr/local/bin/tunnel && rm -rf ssh-tunnel && clear
 ```
 
 This will place the `tunnel` binary into `/usr/local/bin` for easy use.
